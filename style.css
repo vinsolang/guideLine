@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins","Battambang", sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+h1,h2,h3,h4{
+    font-size: 4rem;
+    font-weight: bold;
+    font-style: italic;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+p{
+    font-size: 2rem;
+}
+.top-page{
+    background: #000000;
+}
+.bar{
+    cursor: pointer;
+    padding: 0 2rem;
+}
+.icon-bar{
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 6rem;
+    right: 1rem;
+}
+.icon-bar.show{
+    opacity: 1;
+    visibility: visible;
+}
+.icon-bar>a>img{
+    width: 75px;
+    margin: 1rem 0;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 0 1.5rem;
+}
+.doc-func{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.doc-func>a{
+    color: white;
+    font-size: 2rem;
+}
+.doc-func>a:hover{
+    text-decoration: underline;
+}
+.mains-down{
+    text-align: center;
+}
+.images-down{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8rem 0;
+    padding: 2rem 4rem;
+}
+.images{
+    max-width: 650px;
+}
+.images>img{
+    width: 100%;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.images>img:hover{
+    transform: scale(1.1);
+}
+.images>p{
+    font-size: 3rem;
+    font-weight: bold;
+}
+footer {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+  }
+.list-down>li{
+    color: white;
+    margin: 1.5rem 0;
+}
+.list-down>li>a{
+    font-size: 1.5rem;
+}
+.list-down>li>a:hover{
+    text-decoration: underline;
+}
+
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+  }
+  .footer-column {
+    width: 20%;
+    min-width: 180px;
+    margin-bottom: 20px;
+  }
+  .footer-column h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  .footer-column ul li {
+    margin-bottom: 10px;
+  }
+  .footer-column ul li a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  .footer-column ul li a:hover {
+    color: #fff;
+  }
+  .footer-column select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+  }
+  .social-icons a {
+    margin-right: 10px;
+  }
+  .social-icons img {
+    width: 20px;
+    height: 20px;
+  }
+  hr {
+    border: 0;
+    height: 1px;
+    background-color: #444;
+    margin: 20px 0;
+  }
+  .footer-bottom {
+    text-align: center;
+    font-size: 12px;
+  }
+  .footer-bottom a {
+    color: #ccc;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  .footer-bottom a:hover {
+    color: #fff;
+  }
+  .footer-column > h3 {
+    font-style: normal;
+  }
+  .fa-brands {
+    font-size: 2rem;
+  }
+  .menu-button:hover .bar>i{
+    color: #000;
+  }
