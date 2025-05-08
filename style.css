@@ -48,10 +48,13 @@ p {
 /* Top Page Section */
 .top-page {
     padding: 20px;
-    background: rgba(255, 255, 255, 0.9);
+    background: #ffff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     margin: 20px;
+    position: sticky;
+    top: 0;
+    /* z-index: 100; */
 }
 
 .navigation {
